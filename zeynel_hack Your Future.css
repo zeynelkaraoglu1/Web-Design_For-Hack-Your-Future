@@ -1,0 +1,105 @@
+
+*{ box-sizing: border-box; }
+
+body { background-color: rgb(247, 244, 24 ) }
+
+
+.header1{	text-align:center;
+			background-color: brown; 
+			color: white;
+			padding: 20px;
+			border-radius:15px; }				
+
+.kolon {	float:left;
+			width:200px; 
+			height:120px; 
+			background-color:#ff9999; 
+			border-radius:15px; 
+			border:1px solid red; 
+			padding:1px 1px 1px 8px; 
+			text-align:center; 
+			margin:10px; }
+
+.icerik:after { content: ""; 
+				display: table; 
+				clear: both; }	
+		
+.sol,.sag{ 	width: 25%;
+			
+			background:#6AF918; 
+			border-radius:15px; }		
+			
+.sutun{ float: left; 
+		padding: 10px; }
+		
+.orta{ 	width: 50%; 
+		background:#AEF918; 
+		border-radius:15px;
+		}
+
+			
+.a1 {	background:#AEF918; 	}	
+
+.a { 	padding:0px 0px 1px 25px; 
+		text-align:left;}
+
+.nutrition	{	color:blue;
+				text-decoration:underline;
+				font-style:italic;}	
+				
+
+.about	{ 	width: 50%; 
+			height:370px;
+			background:#6AF918; 
+			border-radius:15px;
+			float:left;	
+			position:relative;
+			top:10px;
+			font-size:1.35em;}
+			
+.contact{ 	width: 50%; 
+			background:#6AF918; 
+			border-radius:15px;
+			float:left;	
+			position:relative;
+			top:10px;
+			left:15px;
+			font-size:1em;}
+			
+
+	
+						
+#pic1{	border-radius:15px;}
+
+
+
+table{	text-align:center;
+		vertical-align:center;
+		border:1px solid black;
+		border-collapse:collapse;
+		background-color:blue; 	}
+
+th	{ 	border:1px solid black; 
+		border-collapse:collapse;
+		padding:5px;
+		background-color:#ccddee;}
+
+td	{ 	border:1px solid black; 
+		border-collapse:collapse;
+		padding:5px;
+		background-color:red; }
+
+	
+.footer{	background-color: green;
+			color: white;
+			padding: 10px;
+			text-align: center;
+			width:100%; 
+			height:90px;
+position:relative;
+top:400px;		}
+						
+
+#menu{	float: left;}
+
+
